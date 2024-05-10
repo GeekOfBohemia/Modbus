@@ -1,0 +1,20 @@
+Register address	Field	Type	Ratio	Round	Unit	Min	Max	Read/Write	Remarks	title	device_class
+0484	Frequency_Grid	U16	0.01	0	Hz			R	Grid frequency	Grid frequency	Frequency
+0485	ActivePower_Output_Total	I16	0.01	0	kW			R	Total active power. Discharge is positive, charge is negative	ActivePower Output Total	Power
+0486	ReactivePower_Output_Total	I16	0.01	0	kW			R	Total reactive power. The inverter end is positive for leading and negative for lagging	ReactivePower_Output_Total	Power
+0487	ApparentPower_Output_Total	I16	0.01	0	kW			R	Total apparent power. Discharge is positive, charge is negative	ApparentPower_Output_Total	Power
+0488	ActivePower_PCC_Total	I16	0.01	0	kW			R	Total PCC active power. Selling electricity is positive, buying electricity is negative	ActivePower_PCC_Total	Power
+048D	Voltage_Phase_R	U16	0.1	0	V			R	R phase grid voltage	Voltage_Phase_R	Power
+048E	Current_Output_R	U16	0.01	0	A			R	R-phase inverter output current	Current_Output_R	Power
+048F	ActivePower_Output_R	I16	10.0	0	W			R	The R-phase inverter outputs active power. Discharge is positive, charge is negative	Active Power Output R	Power
+0498	Voltage_Phase_S	U16	0.1	0	V			R	S phase grid voltage	Voltage_Phase_S	Power
+0499	Current_Output_S	U16	0.01	0	A			R	S phase inverter output current	Current_Output_S	Power
+049A	ActivePower_Output_S	I16	10.0	0	W			R	The S-phase inverter outputs active power. Discharge is positive, charge is negative	Active Power Output S	Power
+04A3	Voltage_Phase_T	U16	0.1	0	V			R	T phase grid voltage	Voltage_Phase_T	Power
+04A4	Current_Output_T	U16	0.01	0	A			R	T-phase inverter output current	Current_Output_T	Power
+04A5	ActivePower_Output_T	I16	10.0	0	W			R	The T-phase inverter outputs active power. Discharge is positive, charge is negative	Active Power Output T	Power
+0586	Power_PV1	U16	10.0	0	W			R	PV power of the first road	Power_PV1	Power
+0606	Power_Bat1	I16	10.0	0	W			R	The charging and discharging power of the first battery pack. Charge is positive, discharge is negative	Power_Bat1	Power
+0604	Voltage_Bat1	U16	0.1	0	V			R	No. 1 battery pack voltage	Battery Voltage	Voltage
+0605	Current_Bat1	I16	0.01	0	A			R	The charging and discharging current of the first battery pack. Charge is positive, discharge is negative	Battery Charging	Current
+0608	SOC_Bat1	U16	1.0	0	%	5	100	R	No. 1 battery pack SOC	Battery SOC	Battery
